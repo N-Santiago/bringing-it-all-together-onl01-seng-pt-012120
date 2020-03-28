@@ -43,7 +43,7 @@ class Dog
     name = row[1]
     breed = row[2]
     }
-    dog = self.new(id, name, breed)
+    self.new(dogs_hash)
   end
   
 end 
