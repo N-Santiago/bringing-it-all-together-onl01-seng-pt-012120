@@ -9,5 +9,5 @@ class Dog
   end 
   
   def self.create_table
-  
+    sql = "CREATE TABLE dogs VALUES"
 end 
