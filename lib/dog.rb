@@ -9,5 +9,6 @@ class Dog
   end 
   
   def self.create_table
-    sql = "CREATE TABLE dogs VALUES"
+    sql = "CREATE TABLE dogs (id INTEGER PRIMARY KEY, name TEXT, breed TEXT"
+    
 end 
